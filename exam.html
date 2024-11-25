@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonial Section</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        .container {
+            width: 100%;
+            height: 500px;
+
+            
+        }
+
+        .heading {
+            text-align: center;
+            font-size: 30px;
+            margin-top: 20px;
+        }
+
+        .para {
+            font-size: 20px;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .box {
+            display: flex;
+            gap: 40px;
+            justify-content: center;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+
+        .box1 {
+            width: 250px;
+            height: 300px;
+            background-color: white;
+            text-align: center;
+            box-shadow:-1px -1px 5px 1px ;
+        }
+
+        .box1 img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50px;
+            margin-top: 20px;
+
+        }
+
+        
+        .box1 h4{
+            margin-top: 10PX;
+        }
+        .box1 p{
+            margin-top: 10px;
+            line-height: 20px;
+        }
+        .box1 button{
+            background: none;
+            border: none;
+            margin-top: 20px;
+            font-size: 20px;
+            color: rgb(87, 183, 183);
+        }
+        @media (min-width:301px)and(max-width:840px){
+
+            .container {
+                width: 100%;
+                height: auto;
+                flex-wrap: wrap;
+                
+            }
+         
+        }
+
+
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="heading">
+            Testimonial Section
+        </div>
+        <div class="para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, nulla.
+        </div>
+        <div class="box">
+            <div class="box1">
+                <img src="./image1.jpg" alt="">
+                <h4>Joan Dio</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente, nihil! Ipsa tempore omnis fugit
+                    error nulla nemo expedita impedit debitis.</p>
+                    <button>read more>></button>
+            </div>
+            <div class="box1">
+                <img src="./image2.jpg" alt="">
+                <h4>Irene Strong</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ducimus assumenda repellendus cumque
+                    totam adipisci deleniti expedita labore quasi cupiditate!</p>
+                    <button>read more>></button>
+
+
+
+            </div>
+            <div class="box1">
+                <img src="./image3.jpg" alt="">
+                <h4>Jonak Kakaroto</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim, laboriosam! Qui nobis blanditiis
+                    reiciendis debitis magni placeat quae pariatur repellat?</p>
+                    <button>read more>></button>
+
+
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
